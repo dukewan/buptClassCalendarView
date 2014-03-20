@@ -1,0 +1,150 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	font-family: Helvetica;
+	shape-rendering: crispEdges;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 320px;
+	margin: 0 auto;
+	min-height: 1600px;
+	position: relative;
+}
+
+.header {
+	width: 100%;
+	height: 150px;
+	background: #1d77ef;
+	background: -moz-linear-gradient(top, #1d77ef 0%, #81f3fd 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1d77ef), color-stop(100%,#81f3fd));
+	background: -webkit-linear-gradient(top, #1d77ef 0%,#81f3fd 100%);
+	background: -o-linear-gradient(top, #1d77ef 0%,#81f3fd 100%);
+	background: -ms-linear-gradient(top, #1d77ef 0%,#81f3fd 100%);
+	background: linear-gradient(to bottom, #1d77ef 0%,#81f3fd 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d77ef', endColorstr='#81f3fd',GradientType=0 );
+}
+
+.header .tip {
+	color: #fff;
+	font-size: 10px;
+	padding: 16px;
+	letter-spacing: 1px;
+}
+
+.header .most {
+}
+
+.header .least {
+	margin-top: 60px;
+}
+
+.user {
+	width: 100%;
+	float: right;
+	height: 50px;
+	margin-top: -40px;
+}
+
+.user .nickname{
+	float: right;
+	padding: 10px;
+	color: #fff;
+}
+
+.user .avatar{
+	margin: 2px 15px 2px 10px;
+	float: right;
+	box-shadow:0 0 5px #cad0d5;
+}
+
+.user .avatar img {
+	width: 55px;
+	height: 55px;
+	border: 2px solid #fff;
+	margin-bottom: -3px;
+}
+
+.tab {
+	margin: 50px auto 10px auto;
+}
+
+.tab .tab-item{
+	width: 45%;
+	margin: 0 1%;
+	padding: 5px 0;
+	text-align: center;
+	letter-spacing: 0px;
+	color: #81f3fd;
+	border: 1px solid #81f3fd;
+	border-radius: 5px;
+	display: inline-block;
+	white-space: nowrap;
+	transition: color 800ms;
+	transition: background-color 800ms;
+	cuoser: pointer;
+}
+
+.tab .active {
+	background-color: #81f3fd;
+	color: #fff;
+}
+
+.cover {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	background-color: rgba(95, 92, 92, 0.79);
+	display: none;
+}
+
+.popup {
+	width: 260px;
+	min-height: 30%;
+	max-height: 60%;
+	position: fixed;
+	top: 10%;
+	left: 50%;
+	margin-left: -130px;
+	border-radius: 10px;
+	z-index: 100;
+	overflow: scroll;
+	background: #34AADC;
+}
+
+.popup .close {
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin: 8px 8px 0 0;
+	border: 1px solid #fff;
+	border-radius: 15px;
+	line-height: 20px;
+}
+
+.popup .content {
+	width:220px;
+	margin: 15px auto 10px auto;
+	padding: 0 20px;
+}
+
+.popup .content .date {
+
+}
+
+.popup .content .text {
+	text-indent: 1em;
+	margin-top: 10px;
+	color: #525252;
+}
+
+.popup .content .time {
+	text-align: right;
+	color: #525252;
+}
